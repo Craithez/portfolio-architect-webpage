@@ -47,6 +47,10 @@ ul {
   list-style: none;
 }
 
+li {
+  display: inline;
+}
+
 a {
   text-decoration: none;
 }
@@ -280,17 +284,14 @@ img {
   border-radius: 0.5rem;
   z-index: -10;
 }
-.skills_html {
+.skills_test1 {
   width: 95%;
 }
-.skills_css {
+.skills_test2 {
   width: 85%;
 }
-.skills_js {
-  width: 65%;
-}
-.skills_ux {
-  width: 85%;
+.skills_test3 {
+  width: 55%;
 }
 .skills_img {
   border-radius: 0.5rem;
@@ -427,12 +428,13 @@ img {
     height: 4.5rem;
   }
   .nav_ list {
-    display: flex;
+    display: inline;
     padding-top: 0;
   }
   .nav_ item {
     margin-left: 3rem;
     margin-bottom: 0;
+    display: inline;
   }
   .nav_ toggle {
     display: none;
